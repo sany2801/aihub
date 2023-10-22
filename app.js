@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 const botToken = '6331468443:AAEWWCH2454XFYzJelPst3XKRFxRsLxe3Ws'; // Замените на свой токен Telegram бота
 const chatId = '-1001668783078'; // Замените на ваш chat_id Telegram
-
+console.log("wefwef")
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
